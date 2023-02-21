@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,200&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aliceblue;
+
+
+
+
+}
+
+.item {
+    font-family: 'Raleway', sans-serif;
+    color: red;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 27px;
+
+}
+
+.item a {
+    color: red;
+    text-decoration: none;
+}
+
+.item a:hover {
+    color: black;
+}
+
+
+.div1 {
+    background-image: linear-gradient(to left, rgb(186, 17, 17), rgb(255, 0, 0));
+    height: 580px;
+    width: auto;
+    color: aliceblue;
+
+}
+
+.h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 40px;
+
+
+}
+
+.parro1 {
+    text-align: center;
+    margin-right: 300px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: large;
+}
+
+span {
+    color: aqua;
+
+    font-size: 70px;
+}
+
+.img1 {
+    margin-left: 400px;
+    margin-top: 30px;
+
+}
+
+.porro {
+    font-size: 16px;
+    margin-left: 400px;
+
+}
+
+hr {
+    border: none;
+    height: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background: linear-gradient(to left, blue, yellow, red);
+    width: 300px;
+    margin-left: 400px;
+
+
+}
+
+.ah {
+    background: linear-gradient(to left, rgb(186, 17, 17), rgb(255, 0, 0));
+    color: aliceblue;
+
+}
+
+
+.liver {
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    border: 2px solid white;
+    padding: 25px;
+    border-radius: 20px;
+    display: block;
+    background: linear-gradient(to left, rgb(18, 2, 185), rgb(255, 132, 0), );
+text-align: center;
+}
+
+
+
+.cat{height: 400px;
+width: 400px;
+border: 2px solid black;
+background-position: center;
+background-size: cover;
+
+
+
+
+
+}
+
+.cat-1982{
+
+    background-image: url("img/1892.jpg");
+}
+
+
+.cat-1940{background-image: url("img/1940.jpg");}
+
+.cat-1950{background-image: url("img/1950.jpeg");}
+
+.car-1955{background-image: url("img/1955.png");}
+
+.cat-1968{background-image: url("img/1968.jpeg");}
+
+.cat-1987{background-image: url("img/1987.jpeg");}
+
+.cat-1992s{background-image: url("img/1992.gif");}
+
+.cat-1999{
+    background-image: url("img/1999.jpg");
+}
+
+.cat-2017{background-image: url("img/Liverpool-logo.jpg");}
+
+.body1{background-image:url("img/colorful-2174045_1280.png")}
+
+.footer1{ font-family: 'roboto'; 
+text-align: center;}
+
+
+.apple{ 
+font-family: 'roboto';
+border: 2px solid palevioletred;
+width: 200px;
+font-size: 28px;
+border-radius: 5px;
+margin-bottom: 10px;
+
+}
+
+.apple:hover{background-color:gray ;}
+
+.body2{background: #c3d7d4;
+font-size: 14px;
+font-family: 'Poppins', sans-serif;
+}
+.containerben{ width: 80%;
+margin: 50px auto;
+p{margin-bottom: 40px;}
+}
+
+.contact-box{
+background: #fff;
+display: flex;
+
+}
+
+.contact-left{
+flex-basis: 60%;
+padding: 40px 60px;
+
+}
+
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px ;
+    background: #b50000;
+    color: #fff;
+    
+    }
+
+    .input-row{
+        display: flex;
+        justify-content: space-between;
+    margin-bottom: 20px;
+
+    .input-group{flex-basis: 40%;}
+    }
+
+    input{width: 100%;
+    border-bottom:1px solid #ccc  ;
+    outline: none;
+    padding: 5px;
+    
+    }
+
+    textarea{width: 100%;
+    border: 1px solid #ccc;
+padding: 10px;
+    outline: none;
+    box-sizing: border-box;
+    
+    
+    }
+
+    label{margin-bottom: 6px;
+        display: block;
+        
+
+
+    }
+
+    button{background: #b50000;
+width: 100px;
+outline: none;
+border: none;
+color: #fff;
+border-radius: 30px;
+height: 33px;
+box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+
+
+    }
+
+    tr rd:first-child{padding-right: 20px;}
+
+    tr td{padding-top: 20px;}
+    tr td a {padding-right: 20px;}
+
+    .tr1{ 
+        th{border: 3px solid  rgb(81, 117, 238)  ;
+            font-family: 'raleway';
+            border-radius: 10px;
+            background: rgb(255, 137, 156);
+            
+        }
+        td{border: 4px solid rgb(255, 137, 156);
+            font-family: 'roboto';
+            border-radius: 5px;
+        background:   rgb(255, 137, 156);;
+        }
+    
+    
+    
+    }
+.potter{background-color:rgb(81, 117, 238) ;}
+
+.harry{font-family: 'roboto';
+font-size: 23px;
+font-weight: 600;
+background-color: rgb(250, 250, 67);
+
+}
+
+.everton{
+height: 700px;
+width: auto;
+background-image: linear-gradient(to left,rgb(235, 247, 236),rgb(222, 45, 45));
+
+
+.redbull{background-image: url("img/Manchester-United-badge-1200x630.jpg");
+height: 300px;
+width: 100%; background-position: center;
+}
+.gata{text-align: center;
+font-family: 'roboto';
+font-size: 35px;
+color: #b50000;
+}
+
+.ketchup{
+    font-size: 36px;
+    font-family: 'roboto';
+    color: rgb(24, 24, 155);
+}
+
+
+}
+
+.manchesterunitedfc{height: 700px;
+width: auto; background:linear-gradient(to left,blue ,white);
+
+ .mon{height: 300px;
+width: auto;
+background-image: url("img/Sean-Dyche-30.01.23-007.jpeg");
+background-position: center;
+background-size: cover;
+}
+}
+
+.class{background-image: url("img/colorful-2174045_1280.png");
+text-align: end;
+display: flex;
+margin-top: 500px;
+
+}
